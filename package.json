@@ -1,0 +1,31 @@
+{
+  "name": "is-verb",
+  "version": "0.0.0",
+  "description": "Is it an English imperative verb?",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "doctest": "sanctuary-doctest",
+    "lint": "sanctuary-lint",
+    "release": "sanctuary-release",
+    "test": "npm run lint && sanctuary-test && npm run doctest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wearereasonablepeople/is-verb.git"
+  },
+  "files": [
+    "/index.js",
+    "/LICENSE",
+    "/package.json",
+    "/README.md",
+    "/verbs.json"
+  ],
+  "author": "Aldwin Vlasblom <aldwin@avaq.it> (https://github.com/Avaq)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.0.3",
+    "sanctuary-scripts": "^3.0.0"
+  }
+}
