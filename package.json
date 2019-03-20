@@ -1,6 +1,6 @@
 {
   "name": "is-verb",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Is it an English imperative verb?",
   "main": "index.js",
   "scripts": {
